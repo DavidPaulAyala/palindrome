@@ -28,6 +28,19 @@
             //Assert
             $this->assertEquals("This is not a palindrome", $result);
         }
+
+        function test_spaces()
+        {
+            //Arrange
+            $test_Palindrome = new Palindrome;
+            $input = "race car";
+
+            //Act
+            $result = $test_Palindrome->determinePalindrome($input);
+
+            //Assert
+            $this->assertEquals("This is a palindrome", $result);
+        }
     }
 
  ?>

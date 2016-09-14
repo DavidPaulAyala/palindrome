@@ -1,0 +1,15 @@
+body{
+    background-color: #ffffe6
+}
+
+
+.jumbotron {
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: #ffff00;
+    background-image: url(../img/Stars.jpg);
+
+
+
+
+}
